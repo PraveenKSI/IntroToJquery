@@ -2,9 +2,9 @@
 Contains assignment solutions to IntroToJquery
 
 
-1.Console "Hello Word" in document.ready function
-2.Select a ID name "#test" and add class "load" when DOM is loaded
-3.Change the color of element which class name end with "-new"
+1.Console "Hello Word" in document.ready function\n
+2.Select a ID name "#test" and add class "load" when DOM is loaded\n
+3.Change the color of element which class name end with "-new"\n
 4.Disable submit button using jquery attr method
 5.Change the font size of ".target" which has parent element with id name "#main"
 6.After page load change the HTML of div element with "p" element
