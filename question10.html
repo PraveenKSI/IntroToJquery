@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .select-tag{
+            display: none;
+        }
+        .menu{
+            font-size: 1.5rem;
+            display:inline-block;
+            background-color: red;
+            width: fit-content;
+        }
+    </style>
+    <title>Question 10</title>
+</head>
+<body>
+    <div class="head-container"></div>
+    <div class="body-container">
+        <!-- <button id = "click-btn"></button> -->
+        <div class="menu">Menu</div>
+        <select class="select-tag" id="">
+            <option value="">option1</option>
+            <option value="">option2</option>
+            <option value="">option3</option>
+        </select>
+    </div>
+    <div class="footer-container"></div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function(){
+        $('.menu').hover((e)=>{
+            console.log(e);
+            $('.select-tag').css('display','block');
+        })
+    })
+</script>
+
+</html>
