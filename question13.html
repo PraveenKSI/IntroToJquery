@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 13</title>
+    <style>
+        .box1{
+            background-color: red;
+            margin:10px;
+            border: 1px solid black;
+            height: 60px;
+        }
+        .box2{
+            background-color: green;
+            margin:10px;
+            border: 1px solid black;
+            height: 70px;
+        }
+        .box3{
+            background-color: blue;
+            margin: 10px;
+            border: 1px solid black;
+            height: 80px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3>Get the max height of Elements using jquery each method</h3>
+        <h4>Check Console</h4>
+    </header>
+    <main>
+        <div class="box1">BOX 1</div>
+        <div class="box2">BOX 2</div>
+        <div class="box3">BOX 3</div>
+    </main>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script>
+    $( "div" ).each(function( index ) {
+  console.log( index + ": " + $( this ).text() + "\t height is:" + $(this).height()+ "px");
+});
+</script>
+</html>
